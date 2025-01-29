@@ -1,0 +1,267 @@
+<mxfile host="65bd71144e">
+    <diagram id="qhp0DTl2IsX8Ve9SAeDF" name="Page-1">
+        <mxGraphModel dx="1300" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" background="#D1D1D1" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="40" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;strokeColor=#000000;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;font color=&quot;#000000&quot;&gt;Start spil&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="130" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontColor=#000000;entryX=0;entryY=0;entryDx=20;entryDy=22.5;entryPerimeter=0;" edge="1" parent="1" source="5" target="34">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="680" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="580" y="349.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="5" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;rounded=0;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="220" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="[sten]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="491" y="224.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="[saks]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="224" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="[papir]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="563" y="296" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="16" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;font color=&quot;#000000&quot;&gt;Valg sammenlignes med computerens&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="191.25" y="306" width="122.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="31" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Brugeren &lt;br&gt;vælger sten&lt;/font&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=none;flipH=0;spacingRight=0;spacingLeft=14;rounded=0;shadow=0;sketch=0;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="185" y="227.5" width="135" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="34" target="67">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Brugeren &lt;br&gt;vælger saks&lt;/font&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=none;flipH=0;spacingRight=0;spacingLeft=14;rounded=0;shadow=0;sketch=0;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="227.5" width="135" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="35" target="86">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Brugeren &lt;br&gt;vælger papir&lt;/font&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=none;flipH=0;spacingRight=0;spacingLeft=14;rounded=0;shadow=0;sketch=0;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="512.5" y="350" width="137.5" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=12;fontColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="38" target="51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="38" target="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="38" target="57">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="224.5" y="414" width="56" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="[sten]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;rotation=0;" vertex="1" parent="1">
+                    <mxGeometry x="175" y="416" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="[saks]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="414" width="109.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" style="edgeStyle=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#d79b00;fontSize=12;fontColor=#000000;rounded=0;fillColor=#ffe6cc;" edge="1" parent="1" source="51" target="107">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="105" y="800"/>
+                            <mxPoint x="550" y="800"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="&lt;font color=&quot;#000000&quot;&gt;Computeren har (også) valgt sten&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="412.5" width="110" height="59" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" style="edgeStyle=none;html=1;strokeColor=#6c8ebf;fontSize=12;fontColor=#000000;entryX=0.124;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;rounded=0;fillColor=#dae8fc;" edge="1" parent="1" target="109">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="368.15914786967414" y="457" as="sourcePoint"/>
+                        <mxPoint x="814.44" y="918.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="368" y="850"/>
+                            <mxPoint x="800" y="850"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="&lt;font color=&quot;#000000&quot;&gt;Sten slår saks&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="328.5" y="425" width="120" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="[papir]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="209.5" y="492" width="109.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" style="edgeStyle=none;html=1;entryX=0.173;entryY=-0.06;entryDx=0;entryDy=0;strokeColor=#b85450;fontSize=12;fontColor=#000000;entryPerimeter=0;fillColor=#f8cecc;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="252.44789361702124" y="583" as="sourcePoint"/>
+                        <mxPoint x="251.31499999999994" y="920" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="&lt;font color=&quot;#000000&quot;&gt;Papir slår sten&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="192.5" y="549" width="120" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="67" target="71">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;font color=&quot;#000000&quot;&gt;Valg sammenlignes med computerens&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="846.25" y="306" width="122.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=12;fontColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="71" target="76">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="71" target="78">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="71" target="81">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="879.5" y="414" width="56" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="[sten]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;rotation=0;" vertex="1" parent="1">
+                    <mxGeometry x="830" y="416" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="[saks]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="900" y="414" width="109.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#b85450;fontSize=12;fontColor=#000000;exitX=0.75;exitY=1;exitDx=0;exitDy=0;rounded=0;fillColor=#f8cecc;" edge="1" parent="1" source="76" target="108">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="795" y="760"/>
+                            <mxPoint x="302" y="760"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Sten slår saks&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="691" y="426" width="139" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" style="edgeStyle=none;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=#d79b00;fontSize=12;fontColor=#000000;rounded=0;fillColor=#ffe6cc;" edge="1" parent="1" source="78" target="107">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1044" y="800"/>
+                            <mxPoint x="610" y="800"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Computeren har (også) valgt saks&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="990.25" y="418" width="106.5" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="[papir]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="864.5" y="492" width="109.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" style="edgeStyle=none;html=1;strokeColor=#6c8ebf;fontSize=12;fontColor=#000000;entryX=0.823;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;" edge="1" parent="1" source="81" target="109">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="861" y="920" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="81" value="&lt;font color=&quot;#000000&quot;&gt;Saks slår papir&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="847.5" y="549" width="120" height="31" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;rounded=0;shadow=0;sketch=0;strokeColor=#000000;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="843" y="1010" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="86" target="90">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="&lt;font color=&quot;#000000&quot;&gt;Valg sammenlignes med computerens&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="520.25" y="457" width="122.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=12;fontColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="90" target="95">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="664.25" y="592.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="90" target="100">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="553.5" y="565" width="56" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="[sten]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;rotation=0;" vertex="1" parent="1">
+                    <mxGeometry x="504" y="567" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="[saks]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="574" y="565" width="109.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" style="edgeStyle=none;html=1;strokeColor=#6c8ebf;fontSize=12;fontColor=#000000;rounded=0;endArrow=none;endFill=0;fillColor=#dae8fc;" edge="1" parent="1" source="95">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="800" y="910" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="435" y="850"/>
+                            <mxPoint x="800" y="850"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Papir slår sten&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="373" y="579" width="124" height="27" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#b85450;fontSize=12;fontColor=#000000;rounded=0;fillColor=#f8cecc;" edge="1" parent="1" source="97" target="108">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="727" y="760"/>
+                            <mxPoint x="302" y="760"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Saks slår papir&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="664" y="575" width="125.75" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="[papir]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;rotation=90;" vertex="1" parent="1">
+                    <mxGeometry x="538.5" y="643" width="109.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#d79b00;fontSize=12;fontColor=#000000;fillColor=#ffe6cc;" edge="1" parent="1" source="100" target="107">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Computeren har (også) valgt papir&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="525.75" y="700" width="108.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="107" target="113">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;UAFGJORT&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="521.25" y="920" width="117.5" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="" style="edgeStyle=none;html=1;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="108" target="115">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;BRUGEREN TABER&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#F8ABAB;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="224.5" y="920" width="155" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="109" target="83">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;BRUGEREN VINDER&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="780.5" y="920" width="155" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;rounded=0;shadow=0;sketch=0;strokeColor=#000000;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="1010" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;rounded=0;shadow=0;sketch=0;strokeColor=#000000;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="287" y="1010" width="30" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
