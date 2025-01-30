@@ -1,3 +1,5 @@
+"use strict";
+
 let firstName = "Laura";
 let animalType = "dog";
 let animalName = "Loui";
@@ -5,6 +7,7 @@ let animalName = "Loui";
 presentPet(animalName, animalType, firstName);
 
 function presentPet(firstName, animalType, animalName) {
+  firstName = "Anna";
   console.log(`My name is ${firstName}, I have a ${animalType} called ${animalName}`);
 }
 

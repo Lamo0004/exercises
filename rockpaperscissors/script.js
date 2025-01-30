@@ -1,7 +1,7 @@
 "use strict";
 
 let userGuess;
-let computerGuess;
+let computerChoice;
 let result;
 
 // KONSTANTER
@@ -42,19 +42,19 @@ function startGame(userChoice) {
   player1.classList.add("shake");
   player2.classList.add("shake");
 
-  player1.addEventListener("animationend", endShake);
-  player2.addEventListener("animationend", endShake);
+  player1.addEventListener("animationend", endGame);
+  player2.addEventListener("animationend", endGame);
 
-  computerGuesses();
+  computerChooses();
 }
 
-function computerGuesses() {
+function computerChooses() {
   const choices = ["rock", "paper", "scissors"];
-  computerGuess = choices[Math.floor(Math.random() * 3)];
-  console.log("computerens valg er:", computerGuess);
+  computerChoice = choices[Math.floor(Math.random() * 3)];
+  console.log("computerens valg er:", computerChoice);
 }
 
-function endShake() {
+function endGame() {
   player1.classList.remove("shake");
   player2.classList.remove("shake");
 
@@ -66,12 +66,12 @@ function endShake() {
 
 function winner() {
   // hvis begge vælger det samme, er det uafgjort
-  if (userGuess === computerGuess) {
+  if (userGuess === computerChoice) {
     return "draw";
   }
 
   // brugeren vinder
-  else if ((userGuess === "rock" && computerGuess === "scissors") || (userGuess === "paper" && computerGuess === "rock") || (userGuess === "scissors" && computerGuess === "paper")) {
+  else if ((userGuess === "rock" && computerChoice === "scissors") || (userGuess === "paper" && computerChoice === "rock") || (userGuess === "scissors" && computerChoice === "paper")) {
     return "user";
   }
 
@@ -84,7 +84,7 @@ function winner() {
 function showResult() {
   const result = winner();
 
-  // skjuler alle resultater først
+  // skjuler alle resultater (for også at kunne spille igen)
   winText.classList.add("hidden");
   loseText.classList.add("hidden");
   drawText.classList.add("hidden");
@@ -98,13 +98,9 @@ function showResult() {
     drawText.classList.remove("hidden");
   }
 
-  // fjerner klasser (for at kunne spille igen)
-  player1.classList.remove("rock", "paper", "scissors");
-  player2.classList.remove("rock", "paper", "scissors");
-
   // opdater spillerens valg
   player1.classList.add(userGuess);
-  player2.classList.add(computerGuess);
+  player2.classList.add(computerChoice);
 
   // aktivérer knapperne igen så man kan spille igen
   buttons.classList.remove("disabled");
