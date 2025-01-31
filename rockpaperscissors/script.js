@@ -1,6 +1,6 @@
 "use strict";
 
-let userGuess;
+let userChoice;
 let computerChoice;
 let result;
 
@@ -34,10 +34,10 @@ function scissorsClicked() {
 }
 
 // start spillet
-function startGame(userChoice) {
+function startGame(userChoiceParam) {
   buttons.classList.add("disabled"); // deaktiver knapper
 
-  userGuess = userChoice; // sætter / gemmer brugerens valg
+  userChoice = userChoiceParam; // sætter / gemmer brugerens valg
 
   player1.classList.add("shake");
   player2.classList.add("shake");
@@ -66,12 +66,12 @@ function endGame() {
 
 function winner() {
   // hvis begge vælger det samme, er det uafgjort
-  if (userGuess === computerChoice) {
+  if (userChoice === computerChoice) {
     return "draw";
   }
 
   // brugeren vinder
-  else if ((userGuess === "rock" && computerChoice === "scissors") || (userGuess === "paper" && computerChoice === "rock") || (userGuess === "scissors" && computerChoice === "paper")) {
+  else if ((userChoice === "rock" && computerChoice === "scissors") || (userChoice === "paper" && computerChoice === "rock") || (userChoice === "scissors" && computerChoice === "paper")) {
     return "user";
   }
 
@@ -99,7 +99,7 @@ function showResult() {
   }
 
   // opdater spillerens valg
-  player1.classList.add(userGuess);
+  player1.classList.add(userChoice);
   player2.classList.add(computerChoice);
 
   // aktivérer knapperne igen så man kan spille igen
