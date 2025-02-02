@@ -62,7 +62,7 @@ function endGame() {
 }
 
 // Vinderen bestemmes
-// når return bliver kaldt, afsluttes funktionen, og den værdi, der står efter return, sendes tilbage til det sted, hvor funktionen blev kaldt
+// når return bliver kaldt, afsluttes funktionen, og return værdien, sendes tilbage til det sted, hvor funktionen blev kaldt
 
 function winner() {
   // hvis begge vælger det samme, er det uafgjort

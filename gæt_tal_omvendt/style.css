@@ -1,0 +1,92 @@
+body {
+  font-family: "Barriecito", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  text-align: center;
+  background-color: lightcyan;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  max-width: 800px;
+  margin-inline: auto;
+
+  animation: pulse_kf 0.5s linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transform-origin: bottom;
+
+  animation: farve_kf 5s linear;
+  animation-iteration-count: infinite;
+}
+
+p {
+  font-size: 2.5rem;
+  margin-top: 5rem;
+}
+
+.info {
+  font-style: italic;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  margin: 1rem;
+  cursor: pointer;
+
+  font-family: "Barriecito", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.2rem rgba(128, 128, 128, 0.646);
+  padding: 0.5rem 1rem;
+}
+
+.start {
+  margin-top: 2.5rem;
+  padding: 1rem;
+
+  animation-name: pulse_kf;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transform-origin: bottom;
+}
+
+@keyframes pulse_kf {
+  100% {
+    scale: 1.1;
+  }
+}
+
+@keyframes farve_kf {
+  0% {
+    color: green;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: green;
+  }
+}
