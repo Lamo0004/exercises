@@ -18,6 +18,8 @@ function greeting(firstname) {
 const txt = `Greeting is ${greeting("a name")}`;
 console.log(txt);
 
+setTimeout(greeting, 000);
+
 // Eksperiment 1:
 // Den console logger 'hello laura" (navnet som står i gåseøjne)
 
