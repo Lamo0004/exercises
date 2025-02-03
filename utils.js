@@ -9,3 +9,19 @@ export function $(selector) {
 export function $$(selector) {
   return document.querySelectorAll(selector);
 }
+
+// Dette kunne godt laves til hjælpefunktioner i utils.js
+const minUrl = "https://jsonplaceholder.typicode.com/posts";
+loadJSON(minUrl, prepareData);
+function loadJSON(url, callback) {
+  fetch(url)
+    .then((response) => response.json())
+    .then((jsonData) => callback(jsonData));
+}
+
+function prepareData(data) {
+  console.table(data);
+  data.forEach((element) => {
+    document.querySelector("body").innerHTML += `<h1>${element.title}</h1>`;
+  });
+}
