@@ -16,7 +16,7 @@ function startSpil() {
   $("button").classList.add("hidden");
   $(".start_overskrift").classList.add("hidden");
 
-  computerGuess = Math.floor((max + min) / 2);
+  computerGuess = Math.floor((max + min) / 2); // Computeren regner det mest logiske tal ud (runder ned) – tallet midt imellem min & maks.
   $("h1").textContent = `Computeren gætter på: ${computerGuess}`;
 
   $(".hoej").addEventListener("click", tooHigh);
@@ -25,18 +25,18 @@ function startSpil() {
 }
 
 function tooHigh() {
-  max = computerGuess + 1;
+  max = computerGuess; //Maks sættes til computerens gæt
   newGuess();
 }
 
 function tooLow() {
-  min = computerGuess + 1;
+  min = computerGuess; //Min sættes til computerens gæt
   newGuess();
 }
 
 function newGuess() {
-  attempts++;
-  computerGuess = Math.floor((max + min) / 2);
+  attempts++; //Tæller forsøg
+  computerGuess = Math.floor((max + min) / 2); //Computeren regner det mest logiske tal ud igen – denne gang med de nye min/maks værdier
   $("h1").textContent = `Computeren gætter på: ${computerGuess}`;
 }
 
