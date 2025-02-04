@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+}
+button {
+  cursor: pointer;
+  background-color: aquamarine;
+  border: none;
+  padding: 1rem;
+  box-shadow: 5px 5px rgba(195, 195, 195, 0.499);
+  font-size: 1.5rem;
+}
+button:hover {
+  background-color: rgb(25, 120, 89);
+}
