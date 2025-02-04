@@ -35,17 +35,10 @@ console.log("Person 4:", person4);
 
 //
 
-const minUrl = "https://jsonplaceholder.typicode.com/posts";
-loadJSON(minUrl, prepareData);
-function loadJSON(url, callback) {
-  fetch(url)
-    .then((response) => response.json())
-    .then((jsonData) => callback(jsonData));
+const people = ["Harry", "Ron", "Hermione", "Neville"];
+
+function testParms(a, b, c, d) {
+  console.log(`a:${a}, b:${b}, c:${c}, d:${d}`);
 }
 
-function prepareData(data) {
-  console.table(data);
-  data.forEach((element) => {
-    document.querySelector("body").innerHTML += `<h1>${element.title}</h1>`;
-  });
-}
+people.forEach(testParms);
