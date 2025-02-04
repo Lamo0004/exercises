@@ -2,7 +2,7 @@ const list = document.querySelector("ul");
 
 const barArray = [];
 
-setInterval(generateBars, 200);
+setInterval(generateBars, 1000);
 
 function generateBars() {
   const randomTal = Math.round(Math.random() * 100);
