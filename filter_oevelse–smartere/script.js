@@ -43,6 +43,9 @@ function beautify(str) {
     case true:
       str = "Yes";
       break;
+
+    default:
+      str = str;
   }
   return str;
 }
