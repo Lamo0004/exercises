@@ -1,0 +1,56 @@
+body {
+  color: whitesmoke;
+  background-color: rgb(255, 255, 215);
+}
+
+.flex {
+  display: flex;
+  background-color: rgb(60, 154, 142);
+  justify-content: space-between;
+  border: solid 3px rgb(75, 75, 75);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5rem;
+  padding-top: 5rem;
+  padding-inline: 1rem;
+}
+
+.endnuEnFlex {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background-color: rgb(77, 112, 176);
+  border: solid 3px rgb(75, 75, 75);
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  font-size: 3rem;
+}
+
+p {
+  background-color: rgb(251, 171, 100);
+  margin-block: 0rem;
+  height: 50vh;
+  border: solid;
+  border-color: rgb(75, 75, 75);
+  border-width: 0px 3px;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+label {
+  font-size: 2rem;
+}
+
+select {
+  padding: 0.5rem 1rem;
+  background-color: rgb(73, 173, 160);
+  border: none;
+  box-shadow: 2px 2px rgb(75, 75, 75, 0.665);
+  cursor: pointer;
+  justify-content: end;
+}

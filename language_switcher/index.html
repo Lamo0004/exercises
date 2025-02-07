@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language Switcher</title>
+    <link rel="stylesheet" href="style.css">
     <script type="module" src="js.js"></script>
 </head>
 
 <body>
-    <header class="header">UDSKIFTES
-        <div class="dropdown">
-            <button class="dropbtn">Dropdown</button>
-            <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-            </div>
+    <div class="flex">
+        <header class="header">UDSKIFTES</header>
+        <!-- dropdown til at vælge sprog -->
+        <div class="endnuEnFlex">
+            <label>Choose a language:</label>
+            <select id="language_switcher">
+                <option value="da">Dansk</option>
+                <option value="de">Deutsch</option>
+            </select>
         </div>
-    </header>
+    </div>
     <p>Content</p>
     <div class="footer">UDSKIFTES</div>
 
