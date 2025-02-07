@@ -90,7 +90,7 @@ function AllVehicles() {
   showTheseVehicles(vehicles);
 }
 
-// Funktion der KUN viser køretøjer på El
+// Funktion der viser køretøjer på El
 function onlyElectric(vehicles) {
   if (vehicles.isElectric === true) {
     return true;
