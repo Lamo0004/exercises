@@ -13,6 +13,7 @@ $("button").addEventListener("click", startSpil);
 function startSpil() {
   $(".knapper").classList.remove("hidden");
   $("p").classList.remove("hidden");
+
   $("button").classList.add("hidden");
   $(".start_overskrift").classList.add("hidden");
 

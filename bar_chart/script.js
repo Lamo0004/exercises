@@ -2,7 +2,7 @@ const list = document.querySelector("ul");
 
 const barArray = [];
 
-setInterval(generateBars, 200); //Kalder funktionen hvert 1000 milisekundt
+setInterval(generateBars, 1000); //Kalder funktionen hvert 1000 milisekundt
 
 function generateBars() {
   const randomTal = Math.round(Math.random() * 100);

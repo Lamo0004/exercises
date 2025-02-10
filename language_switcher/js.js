@@ -45,15 +45,13 @@ function switchLanguage(locale) {
   selectedTexts.forEach(({ text, location }) => {
     //Gennemgår hver tekst og dens placering på siden
     const element = document.querySelector(location); //Finder HTML-elementet baseret på location
-    if (element) {
-      element.textContent = text; // Hvis elementet findes, opdateres dets tekstindhold
-    }
+    element.textContent = text; // Tekstindhold opdateres
   });
 }
 
 // Lytter efter ændringer i sprogvælgeren (dropdown-menuen)
 document.getElementById("language_switcher").addEventListener("change", (event) => {
-  switchLanguage(event.target.value); // Kalder funktionen med det valgte sprog for at opdatere teksten på siden
+  switchLanguage(event.target.value); // Kalder funktionen med det valgte sprog for at opdatere teksten på siden. Target referere til det element, man har klikket på.
 });
 
 // Sætter sprogen til dansk default
