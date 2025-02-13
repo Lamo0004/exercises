@@ -12,6 +12,13 @@ const Animal = {
   age: 0,
 };
 
+//Objekt med globale settings – default værdier
+const settings = {
+  filter: "all",
+  sortBy: "type",
+  sortDir: "asc",
+};
+
 function start() {
   console.log("ready");
 
@@ -20,8 +27,11 @@ function start() {
   loadJSON();
 }
 
+//Event-listeners på filter og sort knapper
 function registerButtons() {
   document.querySelectorAll("[data-action='filter']").forEach((button) => button.addEventListener("click", selectFilter));
+
+  document.querySelectorAll("[data-action='sort']").forEach((button) => button.addEventListener("click", selectSort));
 }
 
 async function loadJSON() {
@@ -51,22 +61,28 @@ function preapareObject(jsonObject) {
   return animal;
 }
 
+// Filtrering
 function selectFilter(event) {
   const filter = event.target.dataset.filter;
-  filterList(filter);
+  //   filterList(filter);
+  setFilter(filter);
 }
 
-function filterList(filterBy) {
-  let filteredList = allAnimals; //Default sat til alle dyr
-  if (filterBy === "cat") {
+function setFilter(filter) {
+  settings.filterBy = filter;
+  buildList();
+}
+
+function filterList(filteredList) {
+  if (settings.filterBy === "cat") {
     //Opretter filtreret list med KUN katte
     filteredList = allAnimals.filter(isCat);
-  } else if (filterBy === "dog") {
+  } else if (settings.filterBy === "dog") {
     //Opretter filtreret list med KUN hunde
     filteredList = allAnimals.filter(isDog);
   }
 
-  displayList(filteredList);
+  return filteredList;
 }
 
 function isCat(animal) {
@@ -75,6 +91,63 @@ function isCat(animal) {
 
 function isDog(animal) {
   return animal.type === "dog";
+}
+
+// Sortering
+function selectSort(event) {
+  const sortBy = event.target.dataset.sort; //sortering
+  const sortDir = event.target.dataset.sortDirection; //retning
+
+  //Find "det gamle" sortby element og fjerner klassen .sortBy
+  const oldElement = document.querySelector(`[data-sort=${settings.sortBy}`);
+  oldElement.classList.remove("sortby");
+
+  //Vis aktive sort
+  event.target.classList.add("sortby");
+
+  //Ændre retningen
+  if (sortDir === "asc") {
+    event.target.dataset.sortDirection = "desc";
+  } else {
+    event.target.dataset.sortDirection = "asc";
+  }
+  console.log("brugeren valgte", sortBy, sortDir);
+
+  setSort(sortBy, sortDir);
+}
+
+function setSort(sortBy, sortDir) {
+  settings.sortBy = sortBy;
+  settings.sortDir = sortDir;
+  buildList();
+}
+
+function sortList(sortedList) {
+  let direction = 1;
+  if (settings.sortDir === "desc") {
+    direction = -1;
+  } else {
+    direction = 1;
+  }
+
+  sortedList = sortedList.sort(sortByProperty);
+
+  function sortByProperty(animalA, animalB) {
+    if (animalA[settings.sortBy] < animalB[settings.sortBy]) {
+      return -1 * direction;
+    } else {
+      return 1 * direction;
+    }
+  }
+  return sortedList;
+}
+
+//Bygger liste med filterering og sortering
+function buildList() {
+  const currentList = filterList(allAnimals);
+  const sortedList = sortList(currentList);
+
+  displayList(sortedList);
 }
 
 function displayList(animals) {
