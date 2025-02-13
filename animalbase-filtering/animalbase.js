@@ -22,7 +22,6 @@ const settings = {
 function start() {
   console.log("ready");
 
-  // TODO: Add event-listeners to filter and sort buttons
   registerButtons();
   loadJSON();
 }
@@ -64,7 +63,6 @@ function preapareObject(jsonObject) {
 // Filtrering
 function selectFilter(event) {
   const filter = event.target.dataset.filter;
-  //   filterList(filter);
   setFilter(filter);
 }
 
