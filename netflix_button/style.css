@@ -1,0 +1,65 @@
+body {
+  background-color: burlywood;
+}
+
+.tekst_boks {
+  border: 1px solid black;
+  padding-left: 1rem;
+  width: 500px;
+  margin-top: 2rem;
+  margin-inline: auto;
+  background-color: rgb(218, 218, 218);
+}
+
+dt {
+  margin-top: 1rem;
+}
+
+dd {
+  margin-top: 0.4rem;
+}
+
+p {
+  border: 1px solid black;
+  width: 500px;
+  margin-top: 2rem;
+  margin-inline: auto;
+  padding: 1rem;
+  background-color: rgb(218, 218, 218);
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  display: block;
+  margin-inline: auto;
+  margin-top: 2rem;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2rem;
+
+  background: linear-gradient(to right, rgb(112, 112, 112) 50%, rgb(218, 218, 218) 50%); /*Baggrunden er 50% af hver farve*/
+  background-size: 200% 100%; /*Gør baggrunden dobbelt så stort i x-retningen */
+  background-position: right bottom; /*Sætter positionen til højre (lysegrå) */
+}
+
+.gradient_animation {
+  animation: gradient_kf 5s linear;
+}
+
+/* Keyframe som ændre positionen af baggrunden */
+@keyframes gradient_kf {
+  from {
+    background-position: right bottom; /*Startposition */
+  }
+  to {
+    background-position: left bottom; /*Positionen ændres til højre (mørkegrå) */
+  }
+}
