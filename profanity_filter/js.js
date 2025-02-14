@@ -7,10 +7,10 @@ const curseWords = [
 ];
 
 document.querySelector("button").addEventListener("click", switchWords);
+let sentence = document.querySelector("p"); //Finder HTML-elementet <p>
 
 function switchWords() {
   curseWords.forEach((word) => {
-    let sentence = document.querySelector("p"); //Finder HTML-elementet <p>
     sentence.innerHTML = sentence.innerHTML.split(word.bad).join(`<span>${word.good}</span>`); //Tekstindhold opdateres med split og join, for at udskifte ord
   });
 
